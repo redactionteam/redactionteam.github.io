@@ -1,0 +1,232 @@
+﻿body {
+	background-image:url('Fonas.png');    
+	margin:0;                            
+	padding:0;
+	user-select:none;       /*nebegali pazymeti*/
+	width:100%;
+	height:100%;
+}
+header {
+    overflow:hidden;
+	position:fixed;
+    top:0;
+    width:100%;
+}
+.antraste {
+	background-color:#000;
+	color:rgba(255,255,255, 0.9);
+    font-family: Haettenschweiler;
+    margin:0px auto 0px;
+    padding:0px 5px;
+    box-sizing:border-box; 
+    position:relative;
+    font-size: 6.8vw;     /*vwidth proc keicia nuo lango*/
+}
+nav {
+	box-sizing:border-box;
+	width:100%;
+	margin:0;
+	padding:0;
+    font-family: Haettenschweiler;
+    font-size:2vw;
+    text-decoration:none;
+    padding-right:0px;
+	background-image:url('Fonas.png'); 
+	text-align:center;  
+}
+nav>div {
+	display:inline-block;
+	margin:0px 5px; 
+	padding:13px 30px;
+	text-align:center;
+	background-color:red;
+	border-radius:10px 10px 0 0; 
+}
+nav>div:hover, nav>div:hover>a {
+	background-color:#fff;
+	color:red;
+}
+nav>div>a {
+	color:#fff;
+    text-decoration:none;
+}
+#langas {
+	border:0;
+	background-color:#fff;
+	width:87%;
+	height:100%;       
+	margin:13% 0px 0px 40px;
+	padding:0px;
+}
+.vidus {
+	margin:0px 30px;
+}
+.icon {
+	margin:0px 0px;
+	position:fixed;
+	top:30%;
+	left:92%;
+}
+.icon>a>img {
+	margin:20px 0;
+}                         /* viskas kas priklauso header */                      
+
+                          /* viskas kas priklauso langas>vidus */
+#tema {
+    margin:0;
+    padding:0;
+	color:red;
+	font-weight:bold;
+	font-size:3vw;
+}
+div>div>img {
+	width:49%;
+	height:auto;
+}
+.des {
+    float:right;
+}
+.txt {
+	font-size:1.8vw;
+}
+.txt2 {
+	font-size:2.5vw;
+	font-style:italic;
+	font-weight:bold;
+}
+#logo3 {
+   width:26%;
+   height:auto;
+   float:right;
+}
+#foto {
+	width:60%;
+	height:auto;
+}
+table {
+  width:100%;
+  height:auto;
+  font-size:2vw;
+}
+table,td {
+	border:1px solid black;
+	text-align:center;
+}
+.tus {
+	background-color:#FFFFCC;
+}
+.laikas {
+	font-weight:bold;
+}
+.galerija {
+    width:30%;
+    height:auto;
+}
+	
+	
+@media(min-width: 300px) and (max-width:767px){
+    header {
+	position:relative;
+	width:100%;
+    }
+    .antraste {
+	  font-size:30pt;
+    }
+    nav {
+	  text-align:center;
+	  width:100%;
+    }
+	.korteles {
+	  font-size:14pt;
+	  margin:0;
+	  padding:8px 6px;
+    }
+    #langas {
+	  width:100%;
+	  margin:0;
+	  padding:0;
+    }
+    .antraste>img {
+   	  width:18%;
+	  height:auto;
+    }
+    .icon {
+	  display:none;
+    }                     /* viskas kas priklauso header */                      
+
+                          /* viskas kas priklauso langas>vidus */  
+    .txt {
+	  font-size:14pt;
+	}
+	.txt2 {
+	  font-size:18pt;
+	  font-style:italic;
+	  font-weight:bold;
+    }
+    #tema {
+	  font-size:20pt;
+    }
+    .des {
+	  float:none;
+    }
+    div>div>img, #foto, .galerija {
+	  width:100%;
+	  height:auto;
+    }
+    #logo3 {
+	  width:60%;
+	  height:auto;
+	  float:none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .antraste {
+	  font-size:40pt;
+    }
+    nav {
+	  text-align:center;
+	  width:100%;
+    }
+	.korteles {
+	  font-size:25pt;
+	  margin:0;
+	  padding:8px 8px;
+    }
+     #langas {
+	  width:100%;
+	  margin:18% 0 0 0;
+	  padding:0;
+    }
+    .antraste>img {
+	  width:13%;
+	  height:auto;
+    }
+    .icon {
+	  display:none;
+    }                     /* viskas kas priklauso header */                      
+
+                          /* viskas kas priklauso langas>vidus */ 
+    .txt {
+	  font-size:23pt;
+	}
+    .txt2 {
+	  font-size:28pt;
+	  font-style:italic;
+	  font-weight:bold;
+    }
+	#tema {
+	  font-size:28pt;
+    }
+    .des {
+	  float:none;
+    }
+    div>div>img, #foto, .galerija {
+	  width:100%;
+	  height:auto;
+    }
+    #logo3 {
+	  width:40%;
+	  height:auto;
+	  float:none;
+    }
+}
