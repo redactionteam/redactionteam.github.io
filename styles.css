@@ -143,6 +143,7 @@ table,td {
     }
     .antraste {
 	  font-size:24pt;
+	  font-family:Garamond;
     }
     nav {
 	  text-align:center;
@@ -194,6 +195,7 @@ table,td {
 @media (min-width: 768px) and (max-width: 1000px) {
     .antraste {
 	  font-size:36pt;
+	  font-family:Garamond;
     }
     nav {
 	  text-align:center;
