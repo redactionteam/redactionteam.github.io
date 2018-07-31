@@ -1,4 +1,4 @@
-﻿body {
+body {
 	background-image:url('Fonas.png');    
 	margin:0;                            
 	padding:0;
@@ -20,10 +20,10 @@ header {
     padding:0px 5px;
     box-sizing:border-box; 
     position:relative;
-    font-size: 6.8vw;     /*vwidth % nuo lango*/
+    font-size: 6.0vw;     /*vwidth % nuo lango*/
 }
 .alogo {
-    width:9%;
+    width:6%;
     height:auto;
     margin-left:5%; 
 }
@@ -42,7 +42,7 @@ nav {
 nav>div {
 	display:inline-block;
 	margin:0px 5px; 
-	padding:13px 30px;
+	padding:10px 25px;
 	text-align:center;
 	background-color:red;
 	border-radius:10px 10px 0 0; 
@@ -60,7 +60,7 @@ nav>div>a {
 	background-color:#fff;
 	width:87%;
 	height:100%;       
-	margin:13% 0px 0px 40px;
+	margin:10% 0px 0px 40px;
 	padding:0px;
 }
 .vidus {
@@ -142,7 +142,7 @@ table,td {
 	width:100%;
     }
     .antraste {
-	  font-size:24pt;
+	  font-size:8.7vw;
 	  font-family:Garamond;
     }
     nav {
@@ -208,7 +208,7 @@ table,td {
     }
      #langas {
 	  width:100%;
-	  margin:18% 0 0 0;
+	  margin:14% 0 0 0;
 	  padding:0;
     }
     .alogo {
