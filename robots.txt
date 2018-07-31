@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /L1.html/
+Allow: /
 
 Sitemap: https://redactionteam.github.io/sitemap.xml
