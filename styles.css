@@ -106,13 +106,11 @@ div>div>img {
 .no {
  user-select:none;
  border:none;
- font-size:1.8vw;
 }
 .yes {
  user-select:text;
  border:none;
  text-align:left;
- font-size:1.8vw;
 }
 .txt2 {
  font-size:2.5vw;
@@ -181,6 +179,9 @@ table,td {
  .txt {
   font-size:14pt;
  }
+ .no, .yes {
+  font-size:15pt;
+ }
  .txt2 {
   font-size:18pt;
   font-style:italic;
@@ -232,6 +233,9 @@ table,td {
 /*header,langas>vidus*/ 
  .txt {
   font-size:23pt;
+ }
+ .no, .yes {
+  font-size:24pt;
  }
  .txt2 {
   font-size:28pt;
