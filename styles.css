@@ -98,8 +98,19 @@ div>div>img {
 .txt {
  font-size:1.8vw;
 }
-#kont {
- user-select:text; 
+.kont {
+ border:none;
+ width:auto;
+ border-collapse:collapse;
+}
+.no {
+ user-select:none;
+ border:none;
+}
+.yes {
+ user-select:text;
+ border:none;
+ text-align:left;
 }
 .txt2 {
  font-size:2.5vw;
