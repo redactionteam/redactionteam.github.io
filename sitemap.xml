@@ -8,23 +8,28 @@
 
 
 <url>
-  <loc>https://redactionteam.github.io/index.html</loc>
-  <lastmod>2018-07-17T21:17:19+00:00</lastmod>
+  <loc>https://redactionteam.github.io/</loc>
+  <lastmod>2018-08-08T11:08:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://redactionteam.github.io/index.html</loc>
+  <lastmod>2018-08-08T11:08:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://redactionteam.github.io/L2.html</loc>
-  <lastmod>2018-07-17T21:17:19+00:00</lastmod>
+  <lastmod>2018-08-08T11:08:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://redactionteam.github.io/L3.html</loc>
-  <lastmod>2018-07-17T21:17:19+00:00</lastmod>
+  <lastmod>2018-08-08T11:08:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://redactionteam.github.io/L4.html</loc>
-  <lastmod>2018-07-17T21:17:19+00:00</lastmod>
+  <lastmod>2018-08-08T11:08:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
