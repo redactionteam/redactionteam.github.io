@@ -117,8 +117,8 @@ div>div>img {
  font-style:italic;
  font-weight:bold;
 }
-#logo3 {
- width:26%;
+#map {
+ width:60%;
  height:auto;
  float:right;
 }
@@ -198,8 +198,8 @@ table,td {
   height:auto;
   padding-left:0%;
  }
- #logo3 {
-  width:60%;
+ #map {
+  width:100%;
   height:auto;
   float:none;
  }
@@ -253,8 +253,8 @@ table,td {
   height:auto;
   padding-left:0%;
  }
- #logo3 {
-  width:40%;
+ #map {
+  width:100%;
   height:auto;
   float:none;
  }
