@@ -60,6 +60,11 @@ nav>div>a {
 .vidus {
  margin:0px 30px;
 }
+ .naujasweb {
+  width:100%;
+  height:auto;
+  padding-left:35%; 
+}
 .icon {
  margin:0px 0px;
  position:fixed;
@@ -168,8 +173,16 @@ table,td {
  }
  .icon {
   display:none;
+ } 
+/*header,langas>vidus*/ 
+  .naujasweb {
+  width:100%;
+  height:auto;
+  padding-left:15%; 
+}
+  .naujasweb>a>img {
+   width:70%;
  }
-/*header,langas>vidus*/  
  .txt {
   font-size:14pt;
  }
